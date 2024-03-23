@@ -19,3 +19,9 @@ pnpm dev
 
 - Host: [localhost:3000](http://localhost:3000/)
 - Conferences: [localhost:3001](http://localhost:3001/)
+
+## Other Dependencies
+
+To generate graphs:
+`brew install graphviz`
+`pnpm turbo run build --graph=graph.pdf`

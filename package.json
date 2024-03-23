@@ -13,6 +13,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@swc/helpers": "^0.5.7",
     "eslint-config-custom": "workspace:*",
     "prettier": "latest",
     "turbo": "^1.8.8"
